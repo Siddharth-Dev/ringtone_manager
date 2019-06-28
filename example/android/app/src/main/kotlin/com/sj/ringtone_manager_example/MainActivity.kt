@@ -1,4 +1,4 @@
-package com.sj.ringtone_plugin_example
+package com.sj.ringtone_manager_example
 
 import android.os.Bundle
 

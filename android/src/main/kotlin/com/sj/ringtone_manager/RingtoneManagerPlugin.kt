@@ -1,4 +1,4 @@
-package com.sj.ringtone_plugin
+package com.sj.ringtone_manager
 
 import android.util.Log
 import io.flutter.plugin.common.MethodCall
@@ -7,12 +7,12 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-class RingtonePlugin(private val registrar: Registrar): MethodCallHandler {
+class RingtoneManagerPlugin(private val registrar: Registrar): MethodCallHandler {
   companion object {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
       val channel = MethodChannel(registrar.messenger(), "ringtone_manager")
-      channel.setMethodCallHandler(RingtonePlugin(registrar))
+      channel.setMethodCallHandler(RingtoneManagerPlugin(registrar))
     }
   }
 

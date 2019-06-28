@@ -1,6 +1,6 @@
-# ringtone_plugin_example
+# ringtone_manager_example
 
-Demonstrates how to use the ringtone_plugin plugin.
+Demonstrates how to use the ringtone_manager plugin.
 
 ## Getting Started
 

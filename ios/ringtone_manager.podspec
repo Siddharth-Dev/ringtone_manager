@@ -2,11 +2,11 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'ringtone_plugin'
+  s.name             = 'ringtone_manager'
   s.version          = '0.0.1'
-  s.summary          = 'A plugin to play ringtone on each device'
+  s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
-A plugin to play ringtone on each device
+A new Flutter plugin.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

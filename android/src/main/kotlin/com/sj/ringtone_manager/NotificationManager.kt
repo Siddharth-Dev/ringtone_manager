@@ -1,4 +1,4 @@
-package com.sj.ringtone_plugin
+package com.sj.ringtone_manager
 
 import android.content.Context
 import android.media.AudioManager

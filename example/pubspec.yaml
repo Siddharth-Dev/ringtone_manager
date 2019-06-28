@@ -1,5 +1,5 @@
-name: ringtone_plugin_example
-description: Demonstrates how to use the ringtone_plugin plugin.
+name: ringtone_manager_example
+description: Demonstrates how to use the ringtone_manager plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  ringtone_plugin:
+  ringtone_manager:
     path: ../
 
 # For information on the generic Dart part of this file, see the

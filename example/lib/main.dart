@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ringtone_plugin/ringtone_plugin.dart';
+import 'package:ringtone_manager/ringtone_manager.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
